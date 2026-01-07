@@ -6,6 +6,7 @@ local gameid = {
         [13864661000] = "https://raw.githubusercontent.com/Iptxt/ActualHub/refs/heads/main/BreakIn2", -- Break In 2 (Lobby)
         [13864667823] = "https://raw.githubusercontent.com/Iptxt/ActualHub/refs/heads/main/BreakIn2", -- Break In 2 (In Game)
         [126509999114328] = "https://raw.githubusercontent.com/Iptxt/ActualHub/refs/heads/main/99NightsInTheForest", -- 99 Nights in the forest (In Game)
+        [118614517739521] = "https://raw.githubusercontent.com/Iptxt/ActualHub/refs/heads/main/Blindshot", -- Blindshot
 }
 
 local nconfig = {
