@@ -9,18 +9,11 @@ local gameid = {
         [118614517739521] = "https://raw.githubusercontent.com/Iptxt/ActualHub/refs/heads/main/Blindshot", -- Blindshot
 }
 
-local nconfig = {
-    [10246683491] = true,
-    [10247184396] = true
-}
-
 
 local placeid = game.PlaceId
 
 if gameid[placeid] then
         loadstring(game:HttpGet(gameid[placeid]))();
-elseif nconfig[placeid] then
-        game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Game is supported but need a config. Please go to <font color='#FAF206'>AX Hub Discord Server</font> to retrieve it. Check your clipboard for the discord link.")
 else
         game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Game Is Not Supported! Executing <font color='#FAF206'>Alternative</font> script..")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/Alternative"))()
