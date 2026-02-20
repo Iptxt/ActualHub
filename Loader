@@ -5,7 +5,7 @@ TextChannels:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Scr
 
 local GameList = {
     {
-        placeId = { 3851622790, 2832883232, 4620170611 },
+        placeId = { 3851622790, 4620170611 },
         Url = "https://raw.githubusercontent.com/Iptxt/ActualHub/refs/heads/main/BreakIn1"
     },
     {
