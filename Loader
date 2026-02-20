@@ -33,6 +33,7 @@ for _, list in ipairs(GameList) do
 end
 
 if selectedUrl then
+    _G.ChoosedGame = selectedUrl:match(".*/([^/]+)/?$")
     loadstring(game:HttpGet(selectedUrl))()
 else
     TextChannels:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Game Is Not Supported! Executing <font color='#FAF206'>Alternative</font> script..")
