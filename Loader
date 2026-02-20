@@ -1,8 +1,3 @@
-local TextChatService = game:GetService("TextChatService")
-local TextChannels = TextChatService:WaitForChild("TextChannels"):WaitForChild("RBXGeneral")
-
-TextChannels:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Script failed to load? try change <font color='#FAF206'>executor</font>.")
-
 local GameList = {
     {
         placeId = { 3851622790, 4620170611 },
@@ -22,7 +17,13 @@ local GameList = {
     },
 }
 
+
+
 -- \\ Selecting Game // --
+local TextChatService = game:GetService("TextChatService")
+local TextChannels = TextChatService:WaitForChild("TextChannels"):WaitForChild("RBXGeneral")
+TextChannels:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Script failed to load? try change <font color='#FAF206'>executor</font>.")
+
 local selectedUrl
 
 for _, list in ipairs(GameList) do
