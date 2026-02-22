@@ -52,7 +52,7 @@ end
 
 
 -- \\ Discord Link // --
-task.defer(function()
+task.spawn(function()
     task.wait(2)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/DCLINK"))();
 end)
