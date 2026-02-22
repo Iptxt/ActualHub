@@ -19,6 +19,12 @@ local GameList = {
 
 
 
+
+-- \\ Discord Link // --
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/DCLINK"))();
+end)
+
 -- \\ Selecting Game // --
 local TextChatService = game:GetService("TextChatService")
 local TextChannels = TextChatService:WaitForChild("TextChannels"):WaitForChild("RBXGeneral")
@@ -41,18 +47,3 @@ else
     _G.ChoosedGame = "Universal"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/Alternative"))()
 end
-
-
-
-
-
-
-
-
-
-
--- \\ Discord Link // --
-task.spawn(function()
-    task.wait(2)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/DCLINK"))();
-end)
