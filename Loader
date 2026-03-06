@@ -5,7 +5,7 @@ local GameList = {
     },
     {
         placeId = { 13864661000, 13864667823 },
-        Url = "https://raw.githubusercontent.com/Iptxt/ActualHub/refs/heads/main/BreakIn2",
+        Url = "https://vss.pandadevelopment.net/virtual/file/50dd7db77a9a491f",
     },
     {
         placeId = { 126509999114328 },
