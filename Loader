@@ -6,6 +6,7 @@ local GameList = {
     {
         placeId = { 13864661000, 13864667823 },
         Url = "https://vss.pandadevelopment.net/virtual/file/50dd7db77a9a491f",
+        Name = "BreakIn2",
     },
     {
         placeId = { 126509999114328 },
@@ -35,12 +36,12 @@ local selectedUrl
 for _, list in ipairs(GameList) do
     if table.find(list.placeId, game.PlaceId) then
         selectedUrl = list.Url
+        _G.ChoosedGame = list.Name or selectedUrl:match(".*/([^/]+)/?$")
         break
     end
 end
 
 if selectedUrl then
-    _G.ChoosedGame = selectedUrl:match(".*/([^/]+)/?$")
     loadstring(game:HttpGet(selectedUrl))()
 else
     TextChannels:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Game Is Not Supported! Executing <font color='#FAF206'>Alternative</font> script..")
