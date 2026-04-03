@@ -40,9 +40,9 @@ if selectedUrl then
     loadstring(game:HttpGet(selectedUrl))()
 else
     warn("[ActualHub] - No script found for this game.")
-    TextChannels:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Game Is Not Supported! Executing <font color='#FAF206'>Alternative</font> script..")
+    TextChannels:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Game Is Not Supported! Executing <font color='#FAF206'>Universal</font> script instead..")
     _G.ChoosedGame = "Universal"
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/Alternative"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/ActualHub/refs/heads/main/Main-Script/Universal"))()
 end
 
 
