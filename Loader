@@ -36,6 +36,12 @@ for _, list in ipairs(GameList) do
     end
 end
 
+if _G.Universal then
+    _G.ChoosedGame = "Universal"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/ActualHub/refs/heads/main/Main-Script/Universal"))()
+    return true
+end
+
 if selectedUrl then
     loadstring(game:HttpGet(selectedUrl))()
 else
