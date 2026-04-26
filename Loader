@@ -33,8 +33,8 @@ local GameList = {
 
 
 
+------ [     Selecting Game     ] ------
 
--- \\ Selecting Game // --
 local TextChatService = game:GetService("TextChatService")
 local TextChannels = TextChatService:WaitForChild("TextChannels"):WaitForChild("RBXGeneral")
 TextChannels:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Script failed to load? try change <font color='#FAF206'>executor</font>.")
