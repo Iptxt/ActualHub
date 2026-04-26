@@ -1,3 +1,16 @@
+--[[
+               [     Actual Hub     ]
+This script is created and owned by ActualHub Developers.
+Modification, redistribution, or any attempt to bypass
+or crack this script is strictly prohibited.
+
+Copyright © 2025 ActualHub Developers. All Rights Reserved.
+
+]]--
+
+
+
+
 local GameList = {
     {
         placeId = { 3851622790, 4620170611 },
