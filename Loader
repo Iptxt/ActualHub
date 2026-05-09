@@ -78,7 +78,14 @@ end
 
 
 
--- \\ Discord Link // --
+
+
+
+
+
+
+
+------ [     Discord Link     ] ------
 task.spawn(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/AXHub-Loader/refs/heads/main/DCLINK"))();
 end)
