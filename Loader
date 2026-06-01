@@ -37,7 +37,7 @@ local GameList = {
 
 local TextChatService = game:GetService("TextChatService")
 local TextChannels = TextChatService:WaitForChild("TextChannels"):WaitForChild("RBXGeneral")
-TextChannels:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Script failed to load? try change <font color='#FAF206'>executor</font>.")
+TextChannels:DisplaySystemMessage("<font color='#FAF206'>[Actual Hub] </font>Script failed to load or error? please report it at our <font color='#FAF206'>Discord Server</font>.")
 
 local selectedUrl
 
@@ -63,6 +63,34 @@ else
     _G.ChoosedGame = "Universal"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/ActualHub/refs/heads/main/Main-Script/Universal"))()
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
