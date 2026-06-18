@@ -9,7 +9,10 @@ Copyright © 2025 ActualHub Developers. All Rights Reserved.
 ]]--
 
 
+repeat task.wait() until game:IsLoaded()
+repeat task.wait() until game.Players.LocalPlayer
 
+----------------------------------------------------------
 
 local GameList = {
     {
